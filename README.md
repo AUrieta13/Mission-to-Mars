@@ -10,4 +10,4 @@
 
 ## Web Application after customization:
 
-![image](https://user-images.githubusercontent.com/90146132/147429348-65f23e1a-dc50-4b70-95b6-9708abf876dc.png)
+![image](https://user-images.githubusercontent.com/90146132/147623282-fd88b3c9-f7c4-45fc-9780-543ff4404dd7.png)
