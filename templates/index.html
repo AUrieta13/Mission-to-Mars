@@ -10,10 +10,10 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
   </head>
-  <body style="background-color: rosybrown">
+  <body style="background-image: url('https://static01.nyt.com/images/2020/05/26/science/20SCI-GALAXY1/20SCI-GALAXY1-superJumbo.jpg?quality=75&auto=webp'); background-position: center; background-size: cover; height: 250px;">
     <div class="container">
       <!-- Add Jumbotron to Header -->
-      <div class="jumbotron text-center" style="background-image: url('https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg'); background-position: center; background-size: cover; height: 250px;">
+      <div class="jumbotron text-center" style="background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/74D4/production/_116880992_mars-hope-6.jpg'); background-position: center; background-size: cover; height: 250px;">
         <h1 style="color:whitesmoke">Mission to Mars</h1>
         <!-- Add a button to activate scraping script -->
         <p><a class="btn btn-primary btn-lg" href="/scrape" role="button" style="color:cornsilk ;">Scrape New Data</a></p>
@@ -24,9 +24,9 @@
         <div class="col-md-12">
           <div class="media">
             <div class="media-body">
-              <h2 style="color:cornsilk"> Mars News</h2>
-              <h4 class="media-heading">{{ mars.news_title }}</h4>
-              <p>{{ mars.news_paragraph }}</p>
+              <h2 style="color:cornsilk" style=font:bold> Mars News</h2>
+              <h4 style="color:cornsilk" class="media-heading">{{ mars.news_title }}</h4>
+              <p style="color:cornsilk"> {{ mars.news_paragraph }}</p>
             </div>
           </div>
         </div>
